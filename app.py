@@ -658,7 +658,7 @@ st.markdown('<div class="page-wrapper">', unsafe_allow_html=True)
 # PAGE HEADER
 st.markdown("""
 <div class="page-header">
-    <div class="page-eyebrow">Data Engineering Portfolio · 2024</div>
+    <div class="page-eyebrow">Data Engineering Portfolio · 2026</div>
     <div class="page-title">E-Commerce Intelligence Platform</div>
     <div class="page-description">
         End-to-end data pipeline built on Databricks with Medallion Architecture. 
@@ -1110,7 +1110,7 @@ with tab4:
             <div>
                 <div class="anomaly-title">RJ Avg Order Divergence</div>
                 <div class="anomaly-desc">RJ avg order value R$166 vs SP R$143 despite 3x fewer orders. Premium segment opportunity identified.</div>
-                <div class="anomaly-meta">SEVERITY: MEDIUM · GEOGRAPHIC · 2024-01</div>
+                <div class="anomaly-meta">SEVERITY: MEDIUM · GEOGRAPHIC · 2026-01</div>
             </div>
         </div>
         <div class="anomaly-row">
@@ -1130,7 +1130,7 @@ with tab4:
 st.markdown("""
 <div class="footer">
     <div class="footer-left">
-        RList INTELLIGENCE PLATFORM · BUILT BY RAMYA V · 2024<br>
+        RList INTELLIGENCE PLATFORM · BUILT BY RAMYA V · 2026<br>
         <span style="color:#21262D">Databricks · Delta Lake · Apache Spark · LLaMA 3 · Groq · Streamlit</span>
     </div>
     <div class="footer-links">

@@ -1,10 +1,10 @@
-# ◈ RList E-Commerce Intelligence Platform
+# RList E-Commerce Intelligence Platform
 
 > Because raw data doesn't pay the bills. Clean, AI-powered insights do.
 
 ---
 
-## 🚀 What is this?
+## What is this?
 
 You know that feeling when you open a CSV file with 100,000 rows and Excel just... gives up?
 
@@ -16,12 +16,12 @@ This project is a **full end-to-end Data Engineering pipeline** built on **Datab
 * Transform it through a **Medallion Architecture (Bronze → Silver → Gold)**
 * Power an **AI layer (LLaMA 3)** that explains what the data actually means
 
-📦 **Dataset**: 300,000+ real transactions from Olist (Brazil’s largest e-commerce platform)
-❌ No toy data. No mock dashboards.
+**Dataset**: 300,000+ real transactions from Olist (Brazil’s largest e-commerce platform)
+No toy data. No mock dashboards.
 
 ---
 
-## 🏗️ Architecture — The Three Layers
+## Architecture — The Three Layers
 
 Think of it like a restaurant kitchen:
 
@@ -32,7 +32,7 @@ Raw        Clean       Business-ready
 
 ---
 
-### 🥉 Bronze Layer — Raw Ingestion
+### Bronze Layer — Raw Ingestion
 
 * Data stored **as-is**
 * No transformations, no assumptions
@@ -45,14 +45,14 @@ ecommerce.bronze.payments
 
 ---
 
-### 🥈 Silver Layer — Data Engineering Core
+### Silver Layer — Data Engineering Core
 
 * Null handling
 * Data type corrections
 * Table joins & enrichment
 * Business logic applied
 
-📊 Output:
+Output:
 
 * **98,816 rows**
 * **23 columns**
@@ -64,7 +64,7 @@ ecommerce.silver.orders_enriched
 
 ---
 
-### 🥇 Gold Layer — Business Intelligence
+### Gold Layer — Business Intelligence
 
 Aggregated, decision-ready datasets:
 
@@ -76,7 +76,7 @@ ecommerce.gold.delivery_performance
 
 ---
 
-### 💡 Storage & Governance
+### Storage & Governance
 
 * Delta Lake tables
 * Unity Catalog
@@ -85,7 +85,7 @@ ecommerce.gold.delivery_performance
 
 ---
 
-## 🤖 AI Layer — Where It Gets Interesting
+## AI Layer — Where It Gets Interesting
 
 This is not a chatbot. This is a **data-aware AI system**.
 
@@ -132,7 +132,7 @@ Executed on Spark → returns real results.
 
 ---
 
-## 📊 Key Insights (Real Data)
+## Key Insights (Real Data)
 
 * São Paulo generates **R$5.94M (37.5% of total revenue)**
 * Alagoas has **21.4-day average delivery delay (3σ above mean)**
@@ -142,7 +142,7 @@ Executed on Spark → returns real results.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ```python
 pythonstack = {
@@ -161,7 +161,7 @@ pythonstack = {
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ecommerce-ai-pipeline/
@@ -180,7 +180,7 @@ ecommerce-ai-pipeline/
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 * Data Engineering is not about moving data — it's about making it **trustworthy**
 * Real-world data is messy — the **Silver layer is where engineering matters**

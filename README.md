@@ -86,6 +86,6 @@ The payments table having more rows than the orders table is not a bug. It is a 
 Databricks Unity Catalog is the future. File paths are the past.
 
 🔗 Links
-🌐 Live Dashboard - https://rlist-intelligence-data-engineering-platform.streamlit.app
+🌐 Live Dashboard - https://rlist-intelligence-data-engineering-platform.streamlit.app\N
 💼 LinkedIn - https://www.linkedin.com/in/ramya-velmurugan-6251a0217/
 🐙 GitHubhttps://github.com/RAMYA-V-7
